@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Workshop</title>
+    <meta charset="utf-8">
+  	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src = "assets/js/script.js"></script>
+  </head>
+  <body>
+
+    <!-- Sidebar button -->
+    <div id = "sidebar-button">
+      <a id="nav-toggle">
+        <span></span>
+      </a>
+    </div>
+
+    <!-- Sidebar -->
+    <nav class = "sidebar-container">
+      <ul>
+        <li class = "sidebar-item" id = "home-link">Home</li>
+        <li class = "sidebar-item" id = "misc-link">Miscellaneous</li>
+        <li class = "sidebar-item" id = "dog-link">Doggos</li>
+      </ul>
+    </nav>
+
+    <!-- Page Wrapper (all sections) -->
+    <div class = "page-wrapper">
+      <section class = "section" id = "header-section">
+        <div class = "text" id ="header-text">
+          ANova Hacks Spring 2017 <br> <br>
+          Introduction to JavaScript Workshop
+        </div>
+      </section>
+
+      <section class = "section" id = "miscellaneous-section">
+        <div class = "miscellaneous-container">
+          <div class = "instructions">
+            <!-- Instructions for activities here  -->
+            1. Increase/decrease the size of the box <br>
+            2. Shift the box <br>
+            3. Change the color of the box upon clicking <br>
+            4. Show/Hide the box <br>
+            5. Animate the box
+          <div>
+          <div class = "box" id = "box1"></div>
+          <div class = "box" id = "box2"></div>
+          <div class = "box" id = "box3"></div>
+          <div class = "box" id = "box4"></div>
+          <div class = "box" id = "box5"></div>
+          <div class = "box" id = "showbox4"> Show box </div>
+        </div>
+      </section>
+
+      <!-- Carousel -->
+      <section class = "section" id = "carousel-section">
+        <div class = "carousel-container">
+          <div id = "carousel">
+            <div class = "carousel-item">
+              <img id = "image1" src = "assets/img/doggo.jpg">
+            </div>
+            <div class = "carousel-item">
+              <img src = "assets/img/anotherdoggo.jpg">
+            </div>
+            <div class = "carousel-item">
+              <img src = "assets/img/blacklab.jpg">
+            </div>
+            <div class = "carousel-item">
+              <img src = "assets/img/pug.jpg">
+            </div>
+            <div class = "carousel-item">
+              <img src = "assets/img/corgi.jpg">
+            </div>
+          </div>
+          <!-- Carousel buttons -->
+          <div id = "carousel-prev">
+            <img class = "arrow" src = "assets/img/arrowleft.png"/>
+          </div>
+          <div id = "carousel-next">
+            <img class = "arrow" src = "assets/img/arrowright.png"/>
+          </div>
+        </div>
+      </section>
+      <section class = "section" id = "footer-section">
+      </section>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+Instructions
+
+python3 workshop.py 
+
+Flask
+
+sudo pip3 install flask
+
+python3 app.py
+
